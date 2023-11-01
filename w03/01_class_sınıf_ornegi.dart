@@ -11,6 +11,7 @@ void main(List<String> args) {
 
  Ogrenci o1 = ogrenci(); // o1 burada objedir.objenin adresini taşır.nesnedir.
  
+ 
 }
 
 
