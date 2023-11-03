@@ -1,8 +1,6 @@
-import 'dart:html';
-
 void main(List<String> args) {
 
-
+  print(toplam(10));
   // A- ITERATIF DÖNGÜLER
   //loops-döngüler 
 
@@ -37,10 +35,20 @@ void main(List<String> args) {
   }
  */
 //B-RECURSİVE DÖNGÜLER/ÖZYİNELEMELİ DÖNGÜLER
-
+}
 int Fibonacci(int index){
 // fib ==> 0 1 1 2 3 5 8 13 21 ...
    print("işlem sayisi");
   return Fibonacci(index-1) + Fibonacci(index-2);
 }
+
+// 1 den  n e kadar olan sayıların toplamı
+
+int toplam(int n){
+int t = 0;
+if(n==0) return 0;
+var top =  n + toplam(n-1);
+  return top;
 }
+
+

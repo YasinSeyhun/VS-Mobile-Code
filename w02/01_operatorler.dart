@@ -33,7 +33,7 @@ void main(List<String> args) {
   //C-ternary operatorler-üçlü
   String cinsiyet = "Bayan";
   double yasSinir;
-  yasSinir = cinsiyet == "Erkek" ? : 0;
+  yasSinir = cinsiyet == "Erkek" ?1:0;
 
 
 }
