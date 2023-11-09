@@ -10,7 +10,7 @@ void main(List<String> args) {
 
   int s1 = t1.list!.first!;
 
-
+print(s1.isOdd);
 
 }
 
