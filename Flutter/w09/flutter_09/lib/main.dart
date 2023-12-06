@@ -2,7 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_09/aspect_ratio.dart';
 import 'package:flutter_09/constrainedbox_example.dart';
 import 'package:flutter_09/flex_example.dart';
+import 'package:flutter_09/registation.dart';
 import 'package:flutter_09/stack_example.dart';
+import 'package:flutter_09/statefull_page_ext.dart';
 import 'package:flutter_09/wrap.dart';
 
 void main() {
@@ -18,7 +20,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: RegistrationForm(),
+      home : MatematikPage(),
     );
   }
 }
