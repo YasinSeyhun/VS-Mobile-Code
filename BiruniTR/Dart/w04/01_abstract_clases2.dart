@@ -40,8 +40,8 @@ class hesapMakinesi {
 
 
 class dortIslem extends Matematik implements IleriMatematik {
-  void(){}
-
+  
+double get PI => throw UnimplementedError();
 
   @override
   double bolme(double a, double b) {

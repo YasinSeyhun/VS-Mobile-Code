@@ -11,7 +11,7 @@ class Ders {
   static int? _kapasite;
   static int? _ogrenciSayisi;
 
-  List<Ogrenci> ogrenciler = [];
+  List<ogrenci> ogrenciler = [];
 
   set setKod(int? kod) {
     this._kod = kod;

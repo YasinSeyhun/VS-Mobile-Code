@@ -9,7 +9,7 @@ void main(List<String> args) {
 
 // Ogrenci o1 = new ogrenci();
 
- Ogrenci o1 = ogrenci(); // o1 burada objedir.objenin adresini taşır.nesnedir.
+ ogrenci o1 = ogrenci(); // o1 burada objedir.objenin adresini taşır.nesnedir.
  
  
 }

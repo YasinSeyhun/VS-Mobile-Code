@@ -18,7 +18,7 @@ class ogrenci {
   //private access modifiers / erişim denetleyicileri
 
   int? _no;
-  String? _ad;
+  String? _ad ;
   String? _soyad;
   bool? _cinsiyet;
   
@@ -36,9 +36,9 @@ void set setNo(int no){
 }
 
 //c- metotlar,fonksiyonlar
-String? adinNe() {
+String adinNe() {
+  var _ad;
   return "merhaba benim adım $_ad";
-
 }
 void sarkiSoyle() {
   print("Şuan senin için şarkı söylüyorum...");
