@@ -13,6 +13,7 @@ class AspectRatioExample extends StatelessWidget {
             aspectRatio: 16 / 9, //daha çok videolarda kullanılır.
             child: Container(
               color: Colors.red,
+              //yasin seyhun
             ),
           ),
         ],

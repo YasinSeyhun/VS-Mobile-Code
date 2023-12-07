@@ -1,6 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
+
+void main() {
+  runApp(Sayfa2());
+}
+
 class Sayfa2 extends StatelessWidget {
   const Sayfa2({super.key});
 
