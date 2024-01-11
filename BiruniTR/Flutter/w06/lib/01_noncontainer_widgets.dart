@@ -30,6 +30,7 @@ class Sayfa1 extends StatelessWidget {
             Divider(),
             SizedBox(), //bosluk yaratmak için
             Divider(),
+            SizedBox(),
           ],
         ),
       ),
