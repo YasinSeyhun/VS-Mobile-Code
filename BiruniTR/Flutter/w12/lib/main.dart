@@ -27,6 +27,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       home: StudentPage1(),
+      //home: LoginPage(),
       //isAuth ? homePage() : LoginPage(),
       // routes: {
       //   "HomePage": (context) => homePage(),
