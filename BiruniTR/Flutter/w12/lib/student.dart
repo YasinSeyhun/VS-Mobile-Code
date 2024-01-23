@@ -1,32 +1,30 @@
 class Student {
-  int id;
+  int? id;
   String firstName;
   String lastName;
-  int departmant_id;
+  int departmentId;
 
-//json = key value
-
-  Student(
-      {required this.id,
-      required this.firstName,
-      required this.lastName,
-      required this.departmant_id});
+  Student({
+    this.id,
+    required this.firstName,
+    required this.lastName,
+    required this.departmentId,
+  });
 
   Map<String, dynamic> toMap() {
     return {
       "id": id,
       "firstName": firstName,
       "lastName": lastName,
-      "departmant_id": departmant_id,
+      "departmentId": departmentId,
     };
   }
 
   factory Student.fromMap(Map<String, dynamic> map) {
     return Student(
-      id: map["id"],
-      firstName: map["firstName"],
-      lastName: map["lastName"],
-      departmant_id: map["departmant_id"],
-    );
+        id: map["id"],
+        firstName: map["firstName"],
+        lastName: map["lastName"],
+        departmentId: map["departmentId"]);
   }
 }
