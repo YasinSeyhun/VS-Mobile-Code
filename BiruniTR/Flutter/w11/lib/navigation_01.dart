@@ -45,6 +45,7 @@ class Navigation01Page1 extends StatelessWidget {
         appBar: AppBar(
           backgroundColor: Colors.purpleAccent,
           title: Text("Navigation-01 Page 1 ---- user_id : ${user_id}"),
+          automaticallyImplyLeading: false,
           titleTextStyle:
               TextStyle(color: const Color.fromARGB(179, 228, 228, 228)),
         ),
